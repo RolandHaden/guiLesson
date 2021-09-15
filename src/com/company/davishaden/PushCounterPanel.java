@@ -1,3 +1,8 @@
+/*
+Name: Davis Haden
+Date: 9/15/2021
+Desc: Panel class for buttons and label
+ */
 package com.company.davishaden;
 import java.awt.*;
 import java.awt.event.*;

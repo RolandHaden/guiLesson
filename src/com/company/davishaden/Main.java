@@ -1,3 +1,8 @@
+/*
+Name: Davis Haden
+Date: 9/15/2021
+Desc: Main class which creates a JFrame object and presents it to the user.
+ */
 package com.company.davishaden;
 import javax.swing.*;
 public class Main {
