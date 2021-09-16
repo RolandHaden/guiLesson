@@ -7,15 +7,11 @@ package com.company.davishaden;
 import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
-import java.util.*;
 
 public class PushCounterPanel extends JPanel {
     private int count;
-    private JButton push,pushReduce,closeWindow;
-    private JLabel label;
-    private JPanel buttonPanel;
-    private JPanel mainPanel;
-    int colorCode = 0;
+    private final JButton push,pushReduce,closeWindow;
+    private final JLabel label;
 
     /**
      * Constructor: Sets up the GUI.
@@ -30,7 +26,7 @@ public class PushCounterPanel extends JPanel {
         closeWindow.addActionListener(new ButtonListener());
         label = new JLabel("Number: " + count);
         add(label);
-        buttonPanel = new JPanel();
+        JPanel buttonPanel = new JPanel();
         buttonPanel.setPreferredSize(new Dimension(300, 100));
         buttonPanel.add(push);
         buttonPanel.add(pushReduce);
